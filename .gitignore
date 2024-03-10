@@ -31,3 +31,50 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Virtual Environment
+venv/
+ENV/
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+*.egg-info/
+dist/
+build/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# IDE / Editor Specific
+*.vscode/
+
+# Flask Specific
+instance/
+.webassets-cache
+
+# C Extensions
+*.so
+
+# Logs
+*.log
+
+# Text Editor Backups
+*.swp
+
+# Coverage Reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Local development configuration
+.env
